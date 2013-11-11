@@ -6,3 +6,4 @@ chalky.createServer(function(req, res) {
     res.write("Chalky Placeholder");
     res.end();
 }).listen(3000);
+console.log('Server started.');
